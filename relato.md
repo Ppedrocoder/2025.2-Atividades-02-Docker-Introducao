@@ -16,7 +16,7 @@ Comando utilizado para baixar a imagem do Fedora e iniciar um contêiner interat
 ```bash
 docker run -it --name fedora-tutorial fedora:latest /bin/bash
 ```
-![docker run](imagens/Primeira parte 1.png)
+![docker run](imagens/primeiraparte1.png)
 
 ### 2.2.2. Navegação básica
 
@@ -24,32 +24,32 @@ docker run -it --name fedora-tutorial fedora:latest /bin/bash
 ```bash
 pwd
 ```
-![pwd](imagens/Primeira parte 2.png)
+![pwd](imagens/primeiraparte2.png)
 
 ```bash
 cd ~
 ```
-![cd home](imagens/Primeira parte 3.png)
+![cd home](imagens/primeiraparte3.png)
 
 ```bash
 ls
 ```
-![ls](imagens/Primeira parte 4.png)
+![ls](imagens/primeiraparte4.png)
 
 ```bash
 mkdir atividades
 ```
-![mkdir atividades](imagens/Primeira parte 5.png)
+![mkdir atividades](imagens/primeiraparte5.png)
 
 ```bash
 cd atividades
 ```
-![cd atividades](imagens/Primeira parte 6.png)
+![cd atividades](imagens/primeiraparte6.png)
 
 ```bash
 cd ..
 ```
-![cd ..](imagens/Primeira parte 7.png)
+![cd ..](imagens/primeiraparte7.png)
 
 ---
 
@@ -59,62 +59,62 @@ cd ..
 ```bash
 cd ~
 ```
-![cd home 2](imagens/Segunda Parte 1.png)
+![cd home 2](imagens/segundaparte1.png)
 
 ```bash
 pwd
 ```
-![pwd 2](imagens/Segunda Parte 2.png)
+![pwd 2](imagens/segundaparte2.png)
 
 ```bash
 touch arquivo1.txt
 ```
-![touch arquivo1.txt](imagens/Segunda Parte 3.png)
+![touch arquivo1.txt](imagens/segundaparte3.png)
 
 ```bash
 mv arquivo1.txt documento.txt
 ```
-![mv arquivo1.txt documento.txt](imagens/Segunda Parte 4.png)
+![mv arquivo1.txt documento.txt](imagens/segundaparte4.png)
 
 ```bash
 cd atividades
 ```
-![cd atividades 2](imagens/Segunda Parte 5.png)
+![cd atividades 2](imagens/segundaparte5.png)
 
 ```bash
 mkdir backup
 ```
-![mkdir backup](imagens/Segunda Parte 6.png)
+![mkdir backup](imagens/segundaparte6.png)
 
 ```bash
 cp ~/documento.txt backup/
 ```
-![cp documento.txt backup](imagens/Segunda Parte 7.png)
+![cp documento.txt backup](imagens/segundaparte7.png)
 
 ```bash
 ls backup/
 ```
-![ls backup](imagens/Segunda Parte 8.png)
+![ls backup](imagens/segundaparte8.png)
 
 ```bash
 cd ~
 ```
-![cd home 3](imagens/Segunda Parte 9.png)
+![cd home 3](imagens/segundaparte9.png)
 
 ```bash
 pwd
 ```
-![pwd 3](imagens/Segunda Parte 10.png)
+![pwd 3](imagens/segundaparte10.png)
 
 ```bash
 rm documento.txt
 ```
-![rm documento.txt](imagens/Segunda Parte 11.png)
+![rm documento.txt](imagens/segundaparte11.png)
 
 ```bash
 ls atividades/backup/
 ```
-![ls atividades backup](imagens/Segunda Parte 12.png)
+![ls atividades backup](imagens/segundaparte12.png)
 
 ---
 
@@ -124,22 +124,22 @@ ls atividades/backup/
 ```bash
 dnf update -y
 ```
-![dnf update](imagens/Terceira parte 1.png)
+![dnf update](imagens/terceiraparte1.png)
 
 ```bash
 dnf install nano -y
 ```
-![dnf install nano](imagens/Terceira parte 2.png)
+![dnf install nano](imagens/terceiraparte2.png)
 
 ```bash
 nano --version
 ```
-![nano --version](imagens/Terceira parte 3.png)
+![nano --version](imagens/terceiraparte3.png)
 
 ```bash
 dnf remove nano -y
 ```
-![dnf remove nano](imagens/Terceira parte 4.png)
+![dnf remove nano](imagens/terceiraparte4.png)
 
 ---
 
@@ -149,17 +149,17 @@ dnf remove nano -y
 ```bash
 touch script.sh
 ```
-![touch script.sh](imagens/Quarta parte 1.png)
+![touch script.sh](imagens/quartaparte1.png)
 
 ```bash
 chmod u+x script.sh
 ```
-![chmod script.sh](imagens/Quarta parte 2.png)
+![chmod script.sh](imagens/quartaparte2.png)
 
 ```bash
 ls -l script.sh
 ```
-![ls -l script.sh depois](imagens/Quarta parte 3.png)
+![ls -l script.sh depois](imagens/quartaparte3.png)
 
 ---
 
@@ -169,22 +169,22 @@ ls -l script.sh
 ```bash
 ps aux
 ```
-![ps aux](imagens/Quinta parte 1.png)
+![ps aux](imagens/quintaparte1.png)
 
 ```bash
 sleep 60 &
 ```
-![sleep 60](imagens/Quinta parte 2.png)
+![sleep 60](imagens/quintaparte2.png)
 
 ```bash
 ps aux | grep sleep
 ```
-![ps aux grep sleep](imagens/Quinta parte 3.png)
+![ps aux grep sleep](imagens/quintaparte3.png)
 
 ```bash
 kill <PID>
 ```
-![kill PID](imagens/Quinta parte 4.png)
+![kill PID](imagens/quintaparte4.png)
 
 ---
 
@@ -194,12 +194,12 @@ kill <PID>
 ```bash
 exit
 ```
-![exit](imagens/Sexta parte 1.png)
+![exit](imagens/sextaparte1.png)
 
 ```bash
 docker rm fedora-tutorial
 ```
-![docker rm fedora-tutorial](imagens/Sexta parte 2.png)
+![docker rm fedora-tutorial](imagens/sextaparte2.png)
 
 ---
 
